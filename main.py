@@ -1,7 +1,6 @@
 from database import criar_tabelas
-from interface import abrir_interface
+from interface import tela_inicial
 
 if __name__ == "__main__":
     criar_tabelas()
-    abrir_interface()
-
+    tela_inicial()
